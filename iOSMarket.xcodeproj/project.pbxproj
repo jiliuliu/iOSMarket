@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE0D48FC7C6D50861B9FFC68 /* libPods-iOSMarket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6BA08189EBD535920A14A31 /* libPods-iOSMarket.a */; };
+		EA29922A1DC039F3009C3A8F /* SIXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2992291DC039F3009C3A8F /* SIXViewController.m */; };
 		EA4115ED1DBEEBC800B38183 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4115EC1DBEEBC800B38183 /* main.m */; };
 		EA4115F01DBEEBC800B38183 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4115EF1DBEEBC800B38183 /* AppDelegate.m */; };
-		EA4115F31DBEEBC800B38183 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4115F21DBEEBC800B38183 /* ViewController.m */; };
-		EA4115F61DBEEBC800B38183 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4115F41DBEEBC800B38183 /* Main.storyboard */; };
 		EA4115F81DBEEBC900B38183 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA4115F71DBEEBC900B38183 /* Assets.xcassets */; };
 		EA4115FB1DBEEBC900B38183 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4115F91DBEEBC900B38183 /* LaunchScreen.storyboard */; };
 		EA4116061DBEEBC900B38183 /* iOSMarketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4116051DBEEBC900B38183 /* iOSMarketTests.m */; };
 		EA4116111DBEEBC900B38183 /* iOSMarketUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4116101DBEEBC900B38183 /* iOSMarketUITests.m */; };
+		EA4116251DBEEDFC00B38183 /* SIXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4116241DBEEDFC00B38183 /* SIXNavigationController.m */; };
+		EA4116281DBEEE1200B38183 /* SIXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4116271DBEEE1200B38183 /* SIXTabBarController.m */; };
+		EA41162B1DBEEE7D00B38183 /* FirTabbarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA41162A1DBEEE7D00B38183 /* FirTabbarVC.m */; };
+		EA41162E1DBEF12600B38183 /* UIView+XYWH.m in Sources */ = {isa = PBXBuildFile; fileRef = EA41162D1DBEF12600B38183 /* UIView+XYWH.m */; };
+		EA4116311DBEFF1A00B38183 /* SEEK.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4116301DBEFF1A00B38183 /* SEEK.m */; };
+		EA4116381DBF0C6600B38183 /* ARCGPathFromString.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4116351DBF0C6600B38183 /* ARCGPathFromString.m */; };
+		EA4116391DBF0C6600B38183 /* UIBezierPath+TextPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4116371DBF0C6600B38183 /* UIBezierPath+TextPaths.m */; };
+		EA41163C1DBF2D9B00B38183 /* StretchHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA41163B1DBF2D9B00B38183 /* StretchHeaderView.m */; };
+		EA4116401DBF2E2100B38183 /* CExpandHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = EA41163F1DBF2E2100B38183 /* CExpandHeader.m */; };
+		EA4116431DBF46DA00B38183 /* GameMap.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4116421DBF46DA00B38183 /* GameMap.m */; };
+		EA4116461DBF514400B38183 /* GameMap2.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4116451DBF514400B38183 /* GameMap2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +46,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16DA9626AD2EFF195BC767CE /* Pods-iOSMarket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSMarket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSMarket/Pods-iOSMarket.debug.xcconfig"; sourceTree = "<group>"; };
+		4ADD2A1623311BB9A64C2CEF /* Pods-iOSMarket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSMarket.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSMarket/Pods-iOSMarket.release.xcconfig"; sourceTree = "<group>"; };
+		D6BA08189EBD535920A14A31 /* libPods-iOSMarket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSMarket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2992281DC039F3009C3A8F /* SIXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIXViewController.h; sourceTree = "<group>"; };
+		EA2992291DC039F3009C3A8F /* SIXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIXViewController.m; sourceTree = "<group>"; };
 		EA4115E81DBEEBC800B38183 /* iOSMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA4115EC1DBEEBC800B38183 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EA4115EE1DBEEBC800B38183 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA4115EF1DBEEBC800B38183 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EA4115F11DBEEBC800B38183 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EA4115F21DBEEBC800B38183 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EA4115F51DBEEBC800B38183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA4115F71DBEEBC900B38183 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA4115FA1DBEEBC900B38183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA4115FC1DBEEBC900B38183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +64,29 @@
 		EA41160C1DBEEBC900B38183 /* iOSMarketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSMarketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA4116101DBEEBC900B38183 /* iOSMarketUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSMarketUITests.m; sourceTree = "<group>"; };
 		EA4116121DBEEBC900B38183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA4116211DBEED1100B38183 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		EA4116231DBEEDFC00B38183 /* SIXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIXNavigationController.h; sourceTree = "<group>"; };
+		EA4116241DBEEDFC00B38183 /* SIXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIXNavigationController.m; sourceTree = "<group>"; };
+		EA4116261DBEEE1200B38183 /* SIXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIXTabBarController.h; sourceTree = "<group>"; };
+		EA4116271DBEEE1200B38183 /* SIXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIXTabBarController.m; sourceTree = "<group>"; };
+		EA4116291DBEEE7D00B38183 /* FirTabbarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirTabbarVC.h; sourceTree = "<group>"; };
+		EA41162A1DBEEE7D00B38183 /* FirTabbarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirTabbarVC.m; sourceTree = "<group>"; };
+		EA41162C1DBEF12600B38183 /* UIView+XYWH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XYWH.h"; sourceTree = "<group>"; };
+		EA41162D1DBEF12600B38183 /* UIView+XYWH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XYWH.m"; sourceTree = "<group>"; };
+		EA41162F1DBEFF1A00B38183 /* SEEK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEEK.h; sourceTree = "<group>"; };
+		EA4116301DBEFF1A00B38183 /* SEEK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEEK.m; sourceTree = "<group>"; };
+		EA4116341DBF0C6600B38183 /* ARCGPathFromString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCGPathFromString.h; sourceTree = "<group>"; };
+		EA4116351DBF0C6600B38183 /* ARCGPathFromString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARCGPathFromString.m; sourceTree = "<group>"; };
+		EA4116361DBF0C6600B38183 /* UIBezierPath+TextPaths.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+TextPaths.h"; sourceTree = "<group>"; };
+		EA4116371DBF0C6600B38183 /* UIBezierPath+TextPaths.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+TextPaths.m"; sourceTree = "<group>"; };
+		EA41163A1DBF2D9B00B38183 /* StretchHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StretchHeaderView.h; sourceTree = "<group>"; };
+		EA41163B1DBF2D9B00B38183 /* StretchHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StretchHeaderView.m; sourceTree = "<group>"; };
+		EA41163E1DBF2E2100B38183 /* CExpandHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CExpandHeader.h; sourceTree = "<group>"; };
+		EA41163F1DBF2E2100B38183 /* CExpandHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CExpandHeader.m; sourceTree = "<group>"; };
+		EA4116411DBF46DA00B38183 /* GameMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMap.h; sourceTree = "<group>"; };
+		EA4116421DBF46DA00B38183 /* GameMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameMap.m; sourceTree = "<group>"; };
+		EA4116441DBF514400B38183 /* GameMap2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMap2.h; sourceTree = "<group>"; };
+		EA4116451DBF514400B38183 /* GameMap2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameMap2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0D48FC7C6D50861B9FFC68 /* libPods-iOSMarket.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +115,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		76F6324C91A7989DC1E74830 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16DA9626AD2EFF195BC767CE /* Pods-iOSMarket.debug.xcconfig */,
+				4ADD2A1623311BB9A64C2CEF /* Pods-iOSMarket.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		955EC5FBF0E585CF5A687300 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6BA08189EBD535920A14A31 /* libPods-iOSMarket.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EA4115DF1DBEEBC800B38183 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +139,8 @@
 				EA4116041DBEEBC900B38183 /* iOSMarketTests */,
 				EA41160F1DBEEBC900B38183 /* iOSMarketUITests */,
 				EA4115E91DBEEBC800B38183 /* Products */,
+				76F6324C91A7989DC1E74830 /* Pods */,
+				955EC5FBF0E585CF5A687300 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +157,11 @@
 		EA4115EA1DBEEBC800B38183 /* iOSMarket */ = {
 			isa = PBXGroup;
 			children = (
-				EA4115EE1DBEEBC800B38183 /* AppDelegate.h */,
-				EA4115EF1DBEEBC800B38183 /* AppDelegate.m */,
-				EA4115F11DBEEBC800B38183 /* ViewController.h */,
-				EA4115F21DBEEBC800B38183 /* ViewController.m */,
-				EA4115F41DBEEBC800B38183 /* Main.storyboard */,
-				EA4115F71DBEEBC900B38183 /* Assets.xcassets */,
-				EA4115F91DBEEBC900B38183 /* LaunchScreen.storyboard */,
-				EA4115FC1DBEEBC900B38183 /* Info.plist */,
+				EA4116321DBF0C1A00B38183 /* Libs */,
+				EA4116221DBEEDD200B38183 /* Mian */,
+				EA4116201DBEECCA00B38183 /* Views */,
+				EA41161F1DBEECA700B38183 /* Category */,
+				EA41161E1DBEEC9100B38183 /* ViewControllers */,
 				EA4115EB1DBEEBC800B38183 /* Supporting Files */,
 			);
 			path = iOSMarket;
@@ -117,6 +170,12 @@
 		EA4115EB1DBEEBC800B38183 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EA4116211DBEED1100B38183 /* PrefixHeader.pch */,
+				EA4115EE1DBEEBC800B38183 /* AppDelegate.h */,
+				EA4115EF1DBEEBC800B38183 /* AppDelegate.m */,
+				EA4115F71DBEEBC900B38183 /* Assets.xcassets */,
+				EA4115F91DBEEBC900B38183 /* LaunchScreen.storyboard */,
+				EA4115FC1DBEEBC900B38183 /* Info.plist */,
 				EA4115EC1DBEEBC800B38183 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +199,81 @@
 			path = iOSMarketUITests;
 			sourceTree = "<group>";
 		};
+		EA41161E1DBEEC9100B38183 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA41162F1DBEFF1A00B38183 /* SEEK.h */,
+				EA4116301DBEFF1A00B38183 /* SEEK.m */,
+				EA41163A1DBF2D9B00B38183 /* StretchHeaderView.h */,
+				EA41163B1DBF2D9B00B38183 /* StretchHeaderView.m */,
+				EA4116411DBF46DA00B38183 /* GameMap.h */,
+				EA4116421DBF46DA00B38183 /* GameMap.m */,
+				EA4116441DBF514400B38183 /* GameMap2.h */,
+				EA4116451DBF514400B38183 /* GameMap2.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EA41161F1DBEECA700B38183 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				EA41162C1DBEF12600B38183 /* UIView+XYWH.h */,
+				EA41162D1DBEF12600B38183 /* UIView+XYWH.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		EA4116201DBEECCA00B38183 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EA4116221DBEEDD200B38183 /* Mian */ = {
+			isa = PBXGroup;
+			children = (
+				EA4116231DBEEDFC00B38183 /* SIXNavigationController.h */,
+				EA4116241DBEEDFC00B38183 /* SIXNavigationController.m */,
+				EA4116261DBEEE1200B38183 /* SIXTabBarController.h */,
+				EA4116271DBEEE1200B38183 /* SIXTabBarController.m */,
+				EA4116291DBEEE7D00B38183 /* FirTabbarVC.h */,
+				EA41162A1DBEEE7D00B38183 /* FirTabbarVC.m */,
+				EA2992281DC039F3009C3A8F /* SIXViewController.h */,
+				EA2992291DC039F3009C3A8F /* SIXViewController.m */,
+			);
+			path = Mian;
+			sourceTree = "<group>";
+		};
+		EA4116321DBF0C1A00B38183 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				EA41163D1DBF2E2100B38183 /* CExpandHeader */,
+				EA4116331DBF0C6600B38183 /* TextPath */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		EA4116331DBF0C6600B38183 /* TextPath */ = {
+			isa = PBXGroup;
+			children = (
+				EA4116341DBF0C6600B38183 /* ARCGPathFromString.h */,
+				EA4116351DBF0C6600B38183 /* ARCGPathFromString.m */,
+				EA4116361DBF0C6600B38183 /* UIBezierPath+TextPaths.h */,
+				EA4116371DBF0C6600B38183 /* UIBezierPath+TextPaths.m */,
+			);
+			path = TextPath;
+			sourceTree = "<group>";
+		};
+		EA41163D1DBF2E2100B38183 /* CExpandHeader */ = {
+			isa = PBXGroup;
+			children = (
+				EA41163E1DBF2E2100B38183 /* CExpandHeader.h */,
+				EA41163F1DBF2E2100B38183 /* CExpandHeader.m */,
+			);
+			path = CExpandHeader;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +281,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA4116151DBEEBC900B38183 /* Build configuration list for PBXNativeTarget "iOSMarket" */;
 			buildPhases = (
+				33E99A574452F0D10BE85209 /* [CP] Check Pods Manifest.lock */,
 				EA4115E41DBEEBC800B38183 /* Sources */,
 				EA4115E51DBEEBC800B38183 /* Frameworks */,
 				EA4115E61DBEEBC800B38183 /* Resources */,
+				404BB315CE8A06DE2B4B6E08 /* [CP] Embed Pods Frameworks */,
+				4334D26B04DF1C966D14EA11 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,7 +382,6 @@
 			files = (
 				EA4115FB1DBEEBC900B38183 /* LaunchScreen.storyboard in Resources */,
 				EA4115F81DBEEBC900B38183 /* Assets.xcassets in Resources */,
-				EA4115F61DBEEBC800B38183 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +401,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33E99A574452F0D10BE85209 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		404BB315CE8A06DE2B4B6E08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSMarket/Pods-iOSMarket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4334D26B04DF1C966D14EA11 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSMarket/Pods-iOSMarket-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EA4115E41DBEEBC800B38183 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA4115F31DBEEBC800B38183 /* ViewController.m in Sources */,
+				EA41162E1DBEF12600B38183 /* UIView+XYWH.m in Sources */,
+				EA4116281DBEEE1200B38183 /* SIXTabBarController.m in Sources */,
 				EA4115F01DBEEBC800B38183 /* AppDelegate.m in Sources */,
+				EA41162B1DBEEE7D00B38183 /* FirTabbarVC.m in Sources */,
+				EA4116381DBF0C6600B38183 /* ARCGPathFromString.m in Sources */,
 				EA4115ED1DBEEBC800B38183 /* main.m in Sources */,
+				EA4116311DBEFF1A00B38183 /* SEEK.m in Sources */,
+				EA29922A1DC039F3009C3A8F /* SIXViewController.m in Sources */,
+				EA41163C1DBF2D9B00B38183 /* StretchHeaderView.m in Sources */,
+				EA4116431DBF46DA00B38183 /* GameMap.m in Sources */,
+				EA4116401DBF2E2100B38183 /* CExpandHeader.m in Sources */,
+				EA4116461DBF514400B38183 /* GameMap2.m in Sources */,
+				EA4116391DBF0C6600B38183 /* UIBezierPath+TextPaths.m in Sources */,
+				EA4116251DBEEDFC00B38183 /* SIXNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +503,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EA4115F41DBEEBC800B38183 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EA4115F51DBEEBC800B38183 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EA4115F91DBEEBC900B38183 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -413,8 +600,10 @@
 		};
 		EA4116161DBEEBC900B38183 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16DA9626AD2EFF195BC767CE /* Pods-iOSMarket.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/liujiliu/GitHub/iOSMarket/iOSMarket/PrefixHeader.pch;
 				INFOPLIST_FILE = iOSMarket/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = six.com.iOSMarket;
@@ -424,8 +613,10 @@
 		};
 		EA4116171DBEEBC900B38183 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ADD2A1623311BB9A64C2CEF /* Pods-iOSMarket.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/liujiliu/GitHub/iOSMarket/iOSMarket/PrefixHeader.pch;
 				INFOPLIST_FILE = iOSMarket/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = six.com.iOSMarket;
@@ -498,6 +689,7 @@
 				EA4116171DBEEBC900B38183 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA4116181DBEEBC900B38183 /* Build configuration list for PBXNativeTarget "iOSMarketTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +698,7 @@
 				EA41161A1DBEEBC900B38183 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA41161B1DBEEBC900B38183 /* Build configuration list for PBXNativeTarget "iOSMarketUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +707,7 @@
 				EA41161D1DBEEBC900B38183 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

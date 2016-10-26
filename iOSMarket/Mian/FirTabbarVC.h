@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FirTabbarVC.h
 //  iOSMarket
 //
 //  Created by liujiliu on 16/10/25.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface FirTabbarVC : UIViewController
 
 @end
-
