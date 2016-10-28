@@ -23,9 +23,10 @@
 		EA4116381DBF0C6600B38183 /* ARCGPathFromString.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4116351DBF0C6600B38183 /* ARCGPathFromString.m */; };
 		EA4116391DBF0C6600B38183 /* UIBezierPath+TextPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4116371DBF0C6600B38183 /* UIBezierPath+TextPaths.m */; };
 		EA41163C1DBF2D9B00B38183 /* StretchHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA41163B1DBF2D9B00B38183 /* StretchHeaderView.m */; };
-		EA4116401DBF2E2100B38183 /* CExpandHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = EA41163F1DBF2E2100B38183 /* CExpandHeader.m */; };
 		EA4116431DBF46DA00B38183 /* GameMap.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4116421DBF46DA00B38183 /* GameMap.m */; };
 		EA4116461DBF514400B38183 /* GameMap2.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4116451DBF514400B38183 /* GameMap2.m */; };
+		EA7181DF1DC3024700189B5C /* ThreeD.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7181DE1DC3024700189B5C /* ThreeD.m */; };
+		EAD75DF41DC1B163005F356B /* SIXButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD75DF31DC1B163005F356B /* SIXButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,12 +82,14 @@
 		EA4116371DBF0C6600B38183 /* UIBezierPath+TextPaths.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+TextPaths.m"; sourceTree = "<group>"; };
 		EA41163A1DBF2D9B00B38183 /* StretchHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StretchHeaderView.h; sourceTree = "<group>"; };
 		EA41163B1DBF2D9B00B38183 /* StretchHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StretchHeaderView.m; sourceTree = "<group>"; };
-		EA41163E1DBF2E2100B38183 /* CExpandHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CExpandHeader.h; sourceTree = "<group>"; };
-		EA41163F1DBF2E2100B38183 /* CExpandHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CExpandHeader.m; sourceTree = "<group>"; };
 		EA4116411DBF46DA00B38183 /* GameMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMap.h; sourceTree = "<group>"; };
 		EA4116421DBF46DA00B38183 /* GameMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameMap.m; sourceTree = "<group>"; };
 		EA4116441DBF514400B38183 /* GameMap2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMap2.h; sourceTree = "<group>"; };
 		EA4116451DBF514400B38183 /* GameMap2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameMap2.m; sourceTree = "<group>"; };
+		EA7181DD1DC3024700189B5C /* ThreeD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeD.h; sourceTree = "<group>"; };
+		EA7181DE1DC3024700189B5C /* ThreeD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeD.m; sourceTree = "<group>"; };
+		EAD75DF21DC1B163005F356B /* SIXButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIXButton.h; sourceTree = "<group>"; };
+		EAD75DF31DC1B163005F356B /* SIXButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIXButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +213,8 @@
 				EA4116421DBF46DA00B38183 /* GameMap.m */,
 				EA4116441DBF514400B38183 /* GameMap2.h */,
 				EA4116451DBF514400B38183 /* GameMap2.m */,
+				EA7181DD1DC3024700189B5C /* ThreeD.h */,
+				EA7181DE1DC3024700189B5C /* ThreeD.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -226,6 +231,8 @@
 		EA4116201DBEECCA00B38183 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EAD75DF21DC1B163005F356B /* SIXButton.h */,
+				EAD75DF31DC1B163005F356B /* SIXButton.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -248,7 +255,6 @@
 		EA4116321DBF0C1A00B38183 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
-				EA41163D1DBF2E2100B38183 /* CExpandHeader */,
 				EA4116331DBF0C6600B38183 /* TextPath */,
 			);
 			path = Libs;
@@ -263,15 +269,6 @@
 				EA4116371DBF0C6600B38183 /* UIBezierPath+TextPaths.m */,
 			);
 			path = TextPath;
-			sourceTree = "<group>";
-		};
-		EA41163D1DBF2E2100B38183 /* CExpandHeader */ = {
-			isa = PBXGroup;
-			children = (
-				EA41163E1DBF2E2100B38183 /* CExpandHeader.h */,
-				EA41163F1DBF2E2100B38183 /* CExpandHeader.m */,
-			);
-			path = CExpandHeader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -459,12 +456,13 @@
 				EA4115F01DBEEBC800B38183 /* AppDelegate.m in Sources */,
 				EA41162B1DBEEE7D00B38183 /* FirTabbarVC.m in Sources */,
 				EA4116381DBF0C6600B38183 /* ARCGPathFromString.m in Sources */,
+				EAD75DF41DC1B163005F356B /* SIXButton.m in Sources */,
 				EA4115ED1DBEEBC800B38183 /* main.m in Sources */,
 				EA4116311DBEFF1A00B38183 /* SEEK.m in Sources */,
 				EA29922A1DC039F3009C3A8F /* SIXViewController.m in Sources */,
 				EA41163C1DBF2D9B00B38183 /* StretchHeaderView.m in Sources */,
 				EA4116431DBF46DA00B38183 /* GameMap.m in Sources */,
-				EA4116401DBF2E2100B38183 /* CExpandHeader.m in Sources */,
+				EA7181DF1DC3024700189B5C /* ThreeD.m in Sources */,
 				EA4116461DBF514400B38183 /* GameMap2.m in Sources */,
 				EA4116391DBF0C6600B38183 /* UIBezierPath+TextPaths.m in Sources */,
 				EA4116251DBEEDFC00B38183 /* SIXNavigationController.m in Sources */,

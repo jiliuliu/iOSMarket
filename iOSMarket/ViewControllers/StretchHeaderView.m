@@ -29,6 +29,8 @@ static CGFloat const HeaderHeight = 200;
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    self.view.backgroundColor = [UIColor whiteColor];
+    
     UIImage *image = [UIImage imageNamed:@"image5"];
     self.imageView = [[UIImageView alloc] initWithImage:image];
     self.imageView.frame = CGRectMake(0, kNavigationBarMaxY, kScreenWidth, HeaderHeight);

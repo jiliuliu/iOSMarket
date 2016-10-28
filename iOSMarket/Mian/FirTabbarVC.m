@@ -11,6 +11,7 @@
 #import "StretchHeaderView.h"
 #import "GameMap.h"
 #import "GameMap2.h"
+#import "ThreeD.h"
 
 @interface FirTabbarVC () <UITableViewDelegate, UITableViewDataSource>
 
@@ -69,7 +70,7 @@ static NSString * const OpenType = @"openType";
                    @{Title:@"拉伸头部图像",  VC:[StretchHeaderView class], OpenType:@0},
                    @{Title:@"游戏地图",  VC:[GameMap class], OpenType:@1},
                    @{Title:@"游戏地图2",  VC:[GameMap2 class], OpenType:@1},
-                   @{Title:@"开篇语",  VC:[UIViewController class], OpenType:@0},
+                   @{Title:@"迈向3d世界",  VC:[ThreeD class], OpenType:@0},
                    @{Title:@"开篇语",  VC:[UIViewController class], OpenType:@0},
                    @{Title:@"开篇语",  VC:[UIViewController class], OpenType:@0},
                    @{Title:@"开篇语",  VC:[UIViewController class], OpenType:@0},
