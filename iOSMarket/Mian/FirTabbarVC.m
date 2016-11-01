@@ -8,10 +8,17 @@
 
 #import "FirTabbarVC.h"
 #import "SEEK.h"
+#import "TestVC.h"
 #import "StretchHeaderView.h"
 #import "GameMap.h"
 #import "GameMap2.h"
 #import "ThreeD.h"
+#import "HuiGuangWenZi.h"
+#import "SnowyDay.h"
+#import "WaterWave.h"
+#import "SpecialButton.h"
+#import "DashLine.h"
+#import "LayerPauseresume.h"
 
 @interface FirTabbarVC () <UITableViewDelegate, UITableViewDataSource>
 
@@ -66,22 +73,39 @@ static NSString * const OpenType = @"openType";
 }
 
 - (void)commonInit {
-    self.datas = @[@{Title:@"开篇语",  VC:[SEEK class], OpenType:@0},
-                   @{Title:@"拉伸头部图像",  VC:[StretchHeaderView class], OpenType:@0},
-                   @{Title:@"游戏地图",  VC:[GameMap class], OpenType:@1},
-                   @{Title:@"游戏地图2",  VC:[GameMap2 class], OpenType:@1},
-                   @{Title:@"迈向3d世界",  VC:[ThreeD class], OpenType:@0},
-                   @{Title:@"开篇语",  VC:[UIViewController class], OpenType:@0},
-                   @{Title:@"开篇语",  VC:[UIViewController class], OpenType:@0},
-                   @{Title:@"开篇语",  VC:[UIViewController class], OpenType:@0},
-                   @{Title:@"开篇语",  VC:[UIViewController class], OpenType:@0},
-                   @{Title:@"开篇语",  VC:[UIViewController class], OpenType:@0},
-                   @{Title:@"开篇语",  VC:[UIViewController class], OpenType:@0},
-                   @{Title:@"开篇语",  VC:[UIViewController class], OpenType:@0},
-                   @{Title:@"开篇语",  VC:[UIViewController class], OpenType:@0},
-                   @{Title:@"开篇语",  VC:[UIViewController class], OpenType:@0},
-                   @{Title:@"开篇语",  VC:[UIViewController class], OpenType:@0},
-                   @{Title:@"开篇语",  VC:[UIViewController class], OpenType:@0}];
+    self.datas = @[@{Title:@"开篇语",           VC:[SEEK class], OpenType:@0},
+                   @{Title:@"测试专用",         VC:[TestVC class], OpenType:@0},
+                   @{Title:@"拉伸头部图像",      VC:[StretchHeaderView class], OpenType:@0},
+                   @{Title:@"游戏地图",         VC:[GameMap class], OpenType:@1},
+                   @{Title:@"游戏地图2",        VC:[GameMap2 class], OpenType:@1},
+                   @{Title:@"迈向3d世界",       VC:[ThreeD class], OpenType:@0},
+                   @{Title:@"辉光效果",         VC:[HuiGuangWenZi class], OpenType:@0},
+                   @{Title:@"雨雪纷飞",         VC:[SnowyDay class], OpenType:@1},
+                   @{Title:@"水波荡漾",         VC:[WaterWave class], OpenType:@0},
+                   @{Title:@"特色按钮",         VC:[SpecialButton class], OpenType:@0},
+                   @{Title:@"虚线绘制",         VC:[DashLine class], OpenType:@0},
+                   @{Title:@"图层动画的暂停回复",  VC:[LayerPauseresume class], OpenType:@0},
+                   @{Title:@"开篇语",          VC:[UIViewController class], OpenType:@0},
+                   @{Title:@"开篇语",          VC:[UIViewController class], OpenType:@0},
+                   @{Title:@"开篇语",          VC:[UIViewController class], OpenType:@0},
+                   @{Title:@"开篇语",          VC:[UIViewController class], OpenType:@0},
+                   @{Title:@"开篇语",          VC:[UIViewController class], OpenType:@0},
+                   @{Title:@"开篇语",          VC:[UIViewController class], OpenType:@0},
+                   @{Title:@"开篇语",          VC:[UIViewController class], OpenType:@0},
+                   @{Title:@"开篇语",          VC:[UIViewController class], OpenType:@0},
+                   @{Title:@"开篇语",          VC:[UIViewController class], OpenType:@0},
+                   @{Title:@"开篇语",          VC:[UIViewController class], OpenType:@0},
+                   @{Title:@"开篇语",          VC:[UIViewController class], OpenType:@0},
+                   @{Title:@"开篇语",          VC:[UIViewController class], OpenType:@0},
+                   @{Title:@"开篇语",          VC:[UIViewController class], OpenType:@0},
+                   @{Title:@"开篇语",          VC:[UIViewController class], OpenType:@0},
+                   @{Title:@"开篇语",          VC:[UIViewController class], OpenType:@0},
+                   @{Title:@"开篇语",          VC:[UIViewController class], OpenType:@0},
+                   @{Title:@"开篇语",          VC:[UIViewController class], OpenType:@0},
+                   @{Title:@"开篇语",          VC:[UIViewController class], OpenType:@0},
+                   @{Title:@"开篇语",          VC:[UIViewController class], OpenType:@0},
+                   @{Title:@"开篇语",          VC:[UIViewController class], OpenType:@0},
+                   @{Title:@"开篇语",          VC:[UIViewController class], OpenType:@0}];
 }
 
 - (void)setupViews {

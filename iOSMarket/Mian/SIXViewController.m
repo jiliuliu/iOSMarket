@@ -40,6 +40,7 @@
         [backBtn setTitle:@"done" forState:UIControlStateNormal];
         [backBtn addTarget:self action:@selector(backAction:) forControlEvents:UIControlEventTouchUpInside];
         [[UIApplication sharedApplication].keyWindow addSubview:backBtn];
+        [UIApplication sharedApplication].statusBarHidden = YES;
     }
 }
 

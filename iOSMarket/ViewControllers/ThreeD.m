@@ -23,7 +23,7 @@
     CALayer *plane1        = [CALayer layer];
     plane1.anchorPoint = CGPointMake(0.5, 0.5);                         // 锚点
     plane1.frame       = (CGRect){CGPointZero, CGSizeMake(100, 100)};   // 尺寸
-    plane1.position    = CGPointMake(self.view.center.x, self.view.center.y);                  // 位置
+    plane1.position    = CGPointMake(200, self.view.center.y);                  // 位置
     plane1.opacity         = 0.6;                                       // 背景透明度
     plane1.backgroundColor = RGB_COLOR(1, 0, 0, 1).CGColor;                      // 背景色
     plane1.borderWidth     = 3;                                         // 边框宽度
@@ -39,7 +39,7 @@
     CALayer *plane2        = [CALayer layer];
     plane2.anchorPoint = CGPointMake(0.5, 0.5);                         // 锚点
     plane2.frame       = (CGRect){CGPointZero, CGSizeMake(100, 100)};   // 尺寸
-    plane2.position    = CGPointMake(self.view.center.x, self.view.center.y);                  // 位置
+    plane2.position    = CGPointMake(200, self.view.center.y);                  // 位置
     plane2.opacity         = 0.6;                                       // 背景透明度
     plane2.backgroundColor = RGB_COLOR(0, 1, 0, 1).CGColor;                      // 背景色
     plane2.borderWidth     = 3;                                         // 边框宽度
@@ -65,20 +65,21 @@
         
         CATransform3D fromValue = CATransform3DIdentity;
         fromValue.m34 = 1.0/ -500;
-        fromValue = CATransform3DRotate(fromValue, degree, 0, 1, 0);
+        fromValue = CATransform3DRotate(fromValue, degree, 1, 1, 1);
         CATransform3D toValue = CATransform3DIdentity;
         toValue.m34 = 1.0/ -500;
-        toValue = CATransform3DRotate(toValue, degree += 45.f, 0, 1, 0);
+        toValue = CATransform3DRotate(toValue, degree += 45.f, 1, 1, 1);
         
         CABasicAnimation *transform3D = [CABasicAnimation animationWithKeyPath:@"transform"];
         transform3D.duration = 1.f;
         transform3D.fromValue = [NSValue valueWithCATransform3D:fromValue];
         transform3D.toValue = [NSValue valueWithCATransform3D:toValue];
+        transform3D.removedOnCompletion = NO;
+        transform3D.fillMode = kCAFillModeForwards;
         [container addAnimation:transform3D forKey:@"transform"];
     }];
     
 }
-
 
 
 - (void)didReceiveMemoryWarning {

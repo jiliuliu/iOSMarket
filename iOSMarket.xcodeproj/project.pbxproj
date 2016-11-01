@@ -25,7 +25,17 @@
 		EA41163C1DBF2D9B00B38183 /* StretchHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA41163B1DBF2D9B00B38183 /* StretchHeaderView.m */; };
 		EA4116431DBF46DA00B38183 /* GameMap.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4116421DBF46DA00B38183 /* GameMap.m */; };
 		EA4116461DBF514400B38183 /* GameMap2.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4116451DBF514400B38183 /* GameMap2.m */; };
+		EA481C121DC8897F00412297 /* LayerPauseresume.m in Sources */ = {isa = PBXBuildFile; fileRef = EA481C111DC8897F00412297 /* LayerPauseresume.m */; };
+		EA481C151DC8950B00412297 /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA481C141DC8950B00412297 /* TestVC.m */; };
+		EA688BD11DC8279E007DEE63 /* DashLine.m in Sources */ = {isa = PBXBuildFile; fileRef = EA688BD01DC8279E007DEE63 /* DashLine.m */; };
+		EA688BD41DC839AA007DEE63 /* ZoomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EA688BD31DC839AA007DEE63 /* ZoomButton.m */; };
 		EA7181DF1DC3024700189B5C /* ThreeD.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7181DE1DC3024700189B5C /* ThreeD.m */; };
+		EA73A63F1DC6E1BF00003D19 /* UIColor+ImageGetColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EA73A63E1DC6E1BF00003D19 /* UIColor+ImageGetColor.m */; };
+		EA73A6421DC6E28400003D19 /* HuiGuangWenZi.m in Sources */ = {isa = PBXBuildFile; fileRef = EA73A6411DC6E28400003D19 /* HuiGuangWenZi.m */; };
+		EA73A6451DC6E2E100003D19 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EA73A6441DC6E2E100003D19 /* UIImage+Extension.m */; };
+		EA9CAC611DC74545009DAB1A /* SpecialButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9CAC601DC74545009DAB1A /* SpecialButton.m */; };
+		EAD5DC371DC719B3001B1586 /* SnowyDay.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD5DC361DC719B3001B1586 /* SnowyDay.m */; };
+		EAD5DC3A1DC72180001B1586 /* WaterWave.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD5DC391DC72180001B1586 /* WaterWave.m */; };
 		EAD75DF41DC1B163005F356B /* SIXButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD75DF31DC1B163005F356B /* SIXButton.m */; };
 /* End PBXBuildFile section */
 
@@ -86,8 +96,28 @@
 		EA4116421DBF46DA00B38183 /* GameMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameMap.m; sourceTree = "<group>"; };
 		EA4116441DBF514400B38183 /* GameMap2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameMap2.h; sourceTree = "<group>"; };
 		EA4116451DBF514400B38183 /* GameMap2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameMap2.m; sourceTree = "<group>"; };
+		EA481C101DC8897F00412297 /* LayerPauseresume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerPauseresume.h; sourceTree = "<group>"; };
+		EA481C111DC8897F00412297 /* LayerPauseresume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerPauseresume.m; sourceTree = "<group>"; };
+		EA481C131DC8950B00412297 /* TestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
+		EA481C141DC8950B00412297 /* TestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
+		EA688BCF1DC8279E007DEE63 /* DashLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashLine.h; sourceTree = "<group>"; };
+		EA688BD01DC8279E007DEE63 /* DashLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashLine.m; sourceTree = "<group>"; };
+		EA688BD21DC839AA007DEE63 /* ZoomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomButton.h; sourceTree = "<group>"; };
+		EA688BD31DC839AA007DEE63 /* ZoomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomButton.m; sourceTree = "<group>"; };
 		EA7181DD1DC3024700189B5C /* ThreeD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeD.h; sourceTree = "<group>"; };
 		EA7181DE1DC3024700189B5C /* ThreeD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeD.m; sourceTree = "<group>"; };
+		EA73A63D1DC6E1BF00003D19 /* UIColor+ImageGetColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ImageGetColor.h"; sourceTree = "<group>"; };
+		EA73A63E1DC6E1BF00003D19 /* UIColor+ImageGetColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ImageGetColor.m"; sourceTree = "<group>"; };
+		EA73A6401DC6E28400003D19 /* HuiGuangWenZi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuiGuangWenZi.h; sourceTree = "<group>"; };
+		EA73A6411DC6E28400003D19 /* HuiGuangWenZi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuiGuangWenZi.m; sourceTree = "<group>"; };
+		EA73A6431DC6E2E100003D19 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		EA73A6441DC6E2E100003D19 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		EA9CAC5F1DC74545009DAB1A /* SpecialButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialButton.h; sourceTree = "<group>"; };
+		EA9CAC601DC74545009DAB1A /* SpecialButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialButton.m; sourceTree = "<group>"; };
+		EAD5DC351DC719B3001B1586 /* SnowyDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowyDay.h; sourceTree = "<group>"; };
+		EAD5DC361DC719B3001B1586 /* SnowyDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowyDay.m; sourceTree = "<group>"; };
+		EAD5DC381DC72180001B1586 /* WaterWave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterWave.h; sourceTree = "<group>"; };
+		EAD5DC391DC72180001B1586 /* WaterWave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterWave.m; sourceTree = "<group>"; };
 		EAD75DF21DC1B163005F356B /* SIXButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIXButton.h; sourceTree = "<group>"; };
 		EAD75DF31DC1B163005F356B /* SIXButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIXButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -205,6 +235,8 @@
 		EA41161E1DBEEC9100B38183 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				EA481C131DC8950B00412297 /* TestVC.h */,
+				EA481C141DC8950B00412297 /* TestVC.m */,
 				EA41162F1DBEFF1A00B38183 /* SEEK.h */,
 				EA4116301DBEFF1A00B38183 /* SEEK.m */,
 				EA41163A1DBF2D9B00B38183 /* StretchHeaderView.h */,
@@ -215,6 +247,18 @@
 				EA4116451DBF514400B38183 /* GameMap2.m */,
 				EA7181DD1DC3024700189B5C /* ThreeD.h */,
 				EA7181DE1DC3024700189B5C /* ThreeD.m */,
+				EA73A6401DC6E28400003D19 /* HuiGuangWenZi.h */,
+				EA73A6411DC6E28400003D19 /* HuiGuangWenZi.m */,
+				EAD5DC351DC719B3001B1586 /* SnowyDay.h */,
+				EAD5DC361DC719B3001B1586 /* SnowyDay.m */,
+				EAD5DC381DC72180001B1586 /* WaterWave.h */,
+				EAD5DC391DC72180001B1586 /* WaterWave.m */,
+				EA9CAC5F1DC74545009DAB1A /* SpecialButton.h */,
+				EA9CAC601DC74545009DAB1A /* SpecialButton.m */,
+				EA688BCF1DC8279E007DEE63 /* DashLine.h */,
+				EA688BD01DC8279E007DEE63 /* DashLine.m */,
+				EA481C101DC8897F00412297 /* LayerPauseresume.h */,
+				EA481C111DC8897F00412297 /* LayerPauseresume.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -224,6 +268,10 @@
 			children = (
 				EA41162C1DBEF12600B38183 /* UIView+XYWH.h */,
 				EA41162D1DBEF12600B38183 /* UIView+XYWH.m */,
+				EA73A63D1DC6E1BF00003D19 /* UIColor+ImageGetColor.h */,
+				EA73A63E1DC6E1BF00003D19 /* UIColor+ImageGetColor.m */,
+				EA73A6431DC6E2E100003D19 /* UIImage+Extension.h */,
+				EA73A6441DC6E2E100003D19 /* UIImage+Extension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -233,6 +281,8 @@
 			children = (
 				EAD75DF21DC1B163005F356B /* SIXButton.h */,
 				EAD75DF31DC1B163005F356B /* SIXButton.m */,
+				EA688BD21DC839AA007DEE63 /* ZoomButton.h */,
+				EA688BD31DC839AA007DEE63 /* ZoomButton.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -341,6 +391,7 @@
 				TargetAttributes = {
 					EA4115E71DBEEBC800B38183 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = E82T5RLF74;
 					};
 					EA4116001DBEEBC900B38183 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -452,18 +503,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA41162E1DBEF12600B38183 /* UIView+XYWH.m in Sources */,
+				EA481C121DC8897F00412297 /* LayerPauseresume.m in Sources */,
 				EA4116281DBEEE1200B38183 /* SIXTabBarController.m in Sources */,
 				EA4115F01DBEEBC800B38183 /* AppDelegate.m in Sources */,
+				EA688BD11DC8279E007DEE63 /* DashLine.m in Sources */,
 				EA41162B1DBEEE7D00B38183 /* FirTabbarVC.m in Sources */,
 				EA4116381DBF0C6600B38183 /* ARCGPathFromString.m in Sources */,
 				EAD75DF41DC1B163005F356B /* SIXButton.m in Sources */,
+				EA73A6421DC6E28400003D19 /* HuiGuangWenZi.m in Sources */,
 				EA4115ED1DBEEBC800B38183 /* main.m in Sources */,
+				EA688BD41DC839AA007DEE63 /* ZoomButton.m in Sources */,
 				EA4116311DBEFF1A00B38183 /* SEEK.m in Sources */,
 				EA29922A1DC039F3009C3A8F /* SIXViewController.m in Sources */,
+				EA481C151DC8950B00412297 /* TestVC.m in Sources */,
+				EA9CAC611DC74545009DAB1A /* SpecialButton.m in Sources */,
 				EA41163C1DBF2D9B00B38183 /* StretchHeaderView.m in Sources */,
+				EAD5DC371DC719B3001B1586 /* SnowyDay.m in Sources */,
+				EAD5DC3A1DC72180001B1586 /* WaterWave.m in Sources */,
 				EA4116431DBF46DA00B38183 /* GameMap.m in Sources */,
 				EA7181DF1DC3024700189B5C /* ThreeD.m in Sources */,
+				EA73A63F1DC6E1BF00003D19 /* UIColor+ImageGetColor.m in Sources */,
 				EA4116461DBF514400B38183 /* GameMap2.m in Sources */,
+				EA73A6451DC6E2E100003D19 /* UIImage+Extension.m in Sources */,
 				EA4116391DBF0C6600B38183 /* UIBezierPath+TextPaths.m in Sources */,
 				EA4116251DBEEDFC00B38183 /* SIXNavigationController.m in Sources */,
 			);
@@ -601,6 +662,7 @@
 			baseConfigurationReference = 16DA9626AD2EFF195BC767CE /* Pods-iOSMarket.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E82T5RLF74;
 				GCC_PREFIX_HEADER = /Users/liujiliu/GitHub/iOSMarket/iOSMarket/PrefixHeader.pch;
 				INFOPLIST_FILE = iOSMarket/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -614,6 +676,7 @@
 			baseConfigurationReference = 4ADD2A1623311BB9A64C2CEF /* Pods-iOSMarket.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E82T5RLF74;
 				GCC_PREFIX_HEADER = /Users/liujiliu/GitHub/iOSMarket/iOSMarket/PrefixHeader.pch;
 				INFOPLIST_FILE = iOSMarket/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

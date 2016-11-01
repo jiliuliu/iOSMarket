@@ -9,7 +9,7 @@
 #import "SEEK.h"
 #import "UIBezierPath+TextPaths.h"
 
-@interface SEEK ()
+@interface SEEK () <CAAnimationDelegate>
 
 @property (nonatomic, copy) NSMutableArray *colors;
 
@@ -42,23 +42,45 @@
     UIView *view = [[UIView alloc] initWithFrame:UIEdgeInsetsInsetRect(self.view.bounds, UIEdgeInsetsMake(100, 50, 100, 50))];
     [self.view addSubview:view];
     
-    UIBezierPath *textPath = [UIBezierPath pathForString:[self text] withFont:[UIFont systemFontOfSize:20]];
+    UIBezierPath *textPath = [UIBezierPath pathForString:[self text] withFont:[UIFont fontWithName:@"HelveticaNeue-UltraLight" size:20.f]];
     CAShapeLayer *shapeLayer = [CAShapeLayer layer];
     shapeLayer.bounds = CGPathGetBoundingBox(textPath.CGPath);
     shapeLayer.position = self.view.center;
+    shapeLayer.strokeEnd = 0.f;
+    shapeLayer.fillColor = [UIColor clearColor].CGColor;
+    shapeLayer.strokeColor = [UIColor whiteColor].CGColor;
 //    shapeLayer.geometryFlipped = YES;
     shapeLayer.path = textPath.CGPath;
     self.shapeLayer = shapeLayer;
-    
+  
     CAGradientLayer *gradientLayer = [CAGradientLayer layer];
     gradientLayer.frame = self.view.bounds;
     gradientLayer.colors = self.colors;
     gradientLayer.mask = shapeLayer;
     gradientLayer.startPoint = CGPointMake(0, 0.5);
-    gradientLayer.startPoint = CGPointMake(1, 0.5);
+    gradientLayer.endPoint = CGPointMake(1, 0.5);
     [self.view.layer addSublayer:gradientLayer];
     self.gradientLayer = gradientLayer;
     [gradientLayer addAnimation:self.animation forKey:nil];
+    
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:0.3 repeats:YES block:^(NSTimer * _Nonnull timer) {
+        static BOOL value = YES;
+        if (value) {
+            shapeLayer.strokeEnd += 0.01;
+        } else {
+            shapeLayer.strokeEnd -= 0.01;
+        }
+        if (shapeLayer.strokeEnd >= 1) {
+            value = NO;
+        } else if (shapeLayer.strokeEnd <= 0) {
+            value = YES;
+        }
+    }];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    [self.timer invalidate];
 }
 
 - (NSMutableArray *)colors {
@@ -84,7 +106,7 @@
         _animation.fromValue = self.colors;
         [self loopColors];
         _animation.toValue = self.colors;
-        _animation.duration = 0.03f;
+        _animation.duration = 0.1f;
         _animation.removedOnCompletion = NO;
         _animation.fillMode = kCAFillModeForwards;
         _animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionLinear];
