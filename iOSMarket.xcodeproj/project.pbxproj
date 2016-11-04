@@ -27,13 +27,20 @@
 		EA4116461DBF514400B38183 /* GameMap2.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4116451DBF514400B38183 /* GameMap2.m */; };
 		EA481C121DC8897F00412297 /* LayerPauseresume.m in Sources */ = {isa = PBXBuildFile; fileRef = EA481C111DC8897F00412297 /* LayerPauseresume.m */; };
 		EA481C151DC8950B00412297 /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA481C141DC8950B00412297 /* TestVC.m */; };
+		EA5310BA1DC98318006EB9D2 /* PiecesImageLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5310B91DC98318006EB9D2 /* PiecesImageLoop.m */; };
+		EA61B3F91DC9F7EE007DF9DD /* MoveableColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EA61B3F81DC9F7EE007DF9DD /* MoveableColor.m */; };
 		EA688BD11DC8279E007DEE63 /* DashLine.m in Sources */ = {isa = PBXBuildFile; fileRef = EA688BD01DC8279E007DEE63 /* DashLine.m */; };
 		EA688BD41DC839AA007DEE63 /* ZoomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EA688BD31DC839AA007DEE63 /* ZoomButton.m */; };
+		EA715C141DCC178000E67521 /* SIXProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EA715C131DCC178000E67521 /* SIXProgressBar.m */; };
+		EA715C1A1DCC20A100E67521 /* ProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EA715C191DCC20A100E67521 /* ProgressBar.m */; };
+		EA715C1C1DCC237A00E67521 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA715C1B1DCC237A00E67521 /* CoreGraphics.framework */; };
+		EA715C1F1DCC24CC00E67521 /* HeXinTuXing.m in Sources */ = {isa = PBXBuildFile; fileRef = EA715C1E1DCC24CC00E67521 /* HeXinTuXing.m */; };
 		EA7181DF1DC3024700189B5C /* ThreeD.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7181DE1DC3024700189B5C /* ThreeD.m */; };
 		EA73A63F1DC6E1BF00003D19 /* UIColor+ImageGetColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EA73A63E1DC6E1BF00003D19 /* UIColor+ImageGetColor.m */; };
 		EA73A6421DC6E28400003D19 /* HuiGuangWenZi.m in Sources */ = {isa = PBXBuildFile; fileRef = EA73A6411DC6E28400003D19 /* HuiGuangWenZi.m */; };
 		EA73A6451DC6E2E100003D19 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EA73A6441DC6E2E100003D19 /* UIImage+Extension.m */; };
 		EA9CAC611DC74545009DAB1A /* SpecialButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9CAC601DC74545009DAB1A /* SpecialButton.m */; };
+		EAC6C6931DCB3D0600457EBA /* HYGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC6C6921DCB3D0600457EBA /* HYGradientLayer.m */; };
 		EAD5DC371DC719B3001B1586 /* SnowyDay.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD5DC361DC719B3001B1586 /* SnowyDay.m */; };
 		EAD5DC3A1DC72180001B1586 /* WaterWave.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD5DC391DC72180001B1586 /* WaterWave.m */; };
 		EAD75DF41DC1B163005F356B /* SIXButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD75DF31DC1B163005F356B /* SIXButton.m */; };
@@ -100,10 +107,21 @@
 		EA481C111DC8897F00412297 /* LayerPauseresume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerPauseresume.m; sourceTree = "<group>"; };
 		EA481C131DC8950B00412297 /* TestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
 		EA481C141DC8950B00412297 /* TestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
+		EA5310B81DC98318006EB9D2 /* PiecesImageLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PiecesImageLoop.h; sourceTree = "<group>"; };
+		EA5310B91DC98318006EB9D2 /* PiecesImageLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PiecesImageLoop.m; sourceTree = "<group>"; };
+		EA61B3F71DC9F7EE007DF9DD /* MoveableColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveableColor.h; sourceTree = "<group>"; };
+		EA61B3F81DC9F7EE007DF9DD /* MoveableColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveableColor.m; sourceTree = "<group>"; };
 		EA688BCF1DC8279E007DEE63 /* DashLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashLine.h; sourceTree = "<group>"; };
 		EA688BD01DC8279E007DEE63 /* DashLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashLine.m; sourceTree = "<group>"; };
 		EA688BD21DC839AA007DEE63 /* ZoomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomButton.h; sourceTree = "<group>"; };
 		EA688BD31DC839AA007DEE63 /* ZoomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomButton.m; sourceTree = "<group>"; };
+		EA715C121DCC178000E67521 /* SIXProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIXProgressBar.h; sourceTree = "<group>"; };
+		EA715C131DCC178000E67521 /* SIXProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIXProgressBar.m; sourceTree = "<group>"; };
+		EA715C181DCC20A100E67521 /* ProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressBar.h; sourceTree = "<group>"; };
+		EA715C191DCC20A100E67521 /* ProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressBar.m; sourceTree = "<group>"; };
+		EA715C1B1DCC237A00E67521 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA715C1D1DCC24CC00E67521 /* HeXinTuXing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeXinTuXing.h; sourceTree = "<group>"; };
+		EA715C1E1DCC24CC00E67521 /* HeXinTuXing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeXinTuXing.m; sourceTree = "<group>"; };
 		EA7181DD1DC3024700189B5C /* ThreeD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeD.h; sourceTree = "<group>"; };
 		EA7181DE1DC3024700189B5C /* ThreeD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeD.m; sourceTree = "<group>"; };
 		EA73A63D1DC6E1BF00003D19 /* UIColor+ImageGetColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ImageGetColor.h"; sourceTree = "<group>"; };
@@ -114,6 +132,8 @@
 		EA73A6441DC6E2E100003D19 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 		EA9CAC5F1DC74545009DAB1A /* SpecialButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialButton.h; sourceTree = "<group>"; };
 		EA9CAC601DC74545009DAB1A /* SpecialButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialButton.m; sourceTree = "<group>"; };
+		EAC6C6911DCB3D0600457EBA /* HYGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGradientLayer.h; sourceTree = "<group>"; };
+		EAC6C6921DCB3D0600457EBA /* HYGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGradientLayer.m; sourceTree = "<group>"; };
 		EAD5DC351DC719B3001B1586 /* SnowyDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowyDay.h; sourceTree = "<group>"; };
 		EAD5DC361DC719B3001B1586 /* SnowyDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowyDay.m; sourceTree = "<group>"; };
 		EAD5DC381DC72180001B1586 /* WaterWave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterWave.h; sourceTree = "<group>"; };
@@ -127,6 +147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA715C1C1DCC237A00E67521 /* CoreGraphics.framework in Frameworks */,
 				CE0D48FC7C6D50861B9FFC68 /* libPods-iOSMarket.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,6 +181,7 @@
 		955EC5FBF0E585CF5A687300 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EA715C1B1DCC237A00E67521 /* CoreGraphics.framework */,
 				D6BA08189EBD535920A14A31 /* libPods-iOSMarket.a */,
 			);
 			name = Frameworks;
@@ -259,6 +281,14 @@
 				EA688BD01DC8279E007DEE63 /* DashLine.m */,
 				EA481C101DC8897F00412297 /* LayerPauseresume.h */,
 				EA481C111DC8897F00412297 /* LayerPauseresume.m */,
+				EA5310B81DC98318006EB9D2 /* PiecesImageLoop.h */,
+				EA5310B91DC98318006EB9D2 /* PiecesImageLoop.m */,
+				EA61B3F71DC9F7EE007DF9DD /* MoveableColor.h */,
+				EA61B3F81DC9F7EE007DF9DD /* MoveableColor.m */,
+				EA715C181DCC20A100E67521 /* ProgressBar.h */,
+				EA715C191DCC20A100E67521 /* ProgressBar.m */,
+				EA715C1D1DCC24CC00E67521 /* HeXinTuXing.h */,
+				EA715C1E1DCC24CC00E67521 /* HeXinTuXing.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -283,6 +313,10 @@
 				EAD75DF31DC1B163005F356B /* SIXButton.m */,
 				EA688BD21DC839AA007DEE63 /* ZoomButton.h */,
 				EA688BD31DC839AA007DEE63 /* ZoomButton.m */,
+				EAC6C6911DCB3D0600457EBA /* HYGradientLayer.h */,
+				EAC6C6921DCB3D0600457EBA /* HYGradientLayer.m */,
+				EA715C121DCC178000E67521 /* SIXProgressBar.h */,
+				EA715C131DCC178000E67521 /* SIXProgressBar.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -290,14 +324,14 @@
 		EA4116221DBEEDD200B38183 /* Mian */ = {
 			isa = PBXGroup;
 			children = (
+				EA2992281DC039F3009C3A8F /* SIXViewController.h */,
+				EA2992291DC039F3009C3A8F /* SIXViewController.m */,
 				EA4116231DBEEDFC00B38183 /* SIXNavigationController.h */,
 				EA4116241DBEEDFC00B38183 /* SIXNavigationController.m */,
 				EA4116261DBEEE1200B38183 /* SIXTabBarController.h */,
 				EA4116271DBEEE1200B38183 /* SIXTabBarController.m */,
 				EA4116291DBEEE7D00B38183 /* FirTabbarVC.h */,
 				EA41162A1DBEEE7D00B38183 /* FirTabbarVC.m */,
-				EA2992281DC039F3009C3A8F /* SIXViewController.h */,
-				EA2992291DC039F3009C3A8F /* SIXViewController.m */,
 			);
 			path = Mian;
 			sourceTree = "<group>";
@@ -386,7 +420,7 @@
 		EA4115E01DBEEBC800B38183 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = six;
 				TargetAttributes = {
 					EA4115E71DBEEBC800B38183 = {
@@ -505,19 +539,25 @@
 				EA41162E1DBEF12600B38183 /* UIView+XYWH.m in Sources */,
 				EA481C121DC8897F00412297 /* LayerPauseresume.m in Sources */,
 				EA4116281DBEEE1200B38183 /* SIXTabBarController.m in Sources */,
+				EA715C1A1DCC20A100E67521 /* ProgressBar.m in Sources */,
 				EA4115F01DBEEBC800B38183 /* AppDelegate.m in Sources */,
+				EA715C1F1DCC24CC00E67521 /* HeXinTuXing.m in Sources */,
 				EA688BD11DC8279E007DEE63 /* DashLine.m in Sources */,
 				EA41162B1DBEEE7D00B38183 /* FirTabbarVC.m in Sources */,
 				EA4116381DBF0C6600B38183 /* ARCGPathFromString.m in Sources */,
 				EAD75DF41DC1B163005F356B /* SIXButton.m in Sources */,
+				EAC6C6931DCB3D0600457EBA /* HYGradientLayer.m in Sources */,
 				EA73A6421DC6E28400003D19 /* HuiGuangWenZi.m in Sources */,
 				EA4115ED1DBEEBC800B38183 /* main.m in Sources */,
+				EA715C141DCC178000E67521 /* SIXProgressBar.m in Sources */,
 				EA688BD41DC839AA007DEE63 /* ZoomButton.m in Sources */,
 				EA4116311DBEFF1A00B38183 /* SEEK.m in Sources */,
 				EA29922A1DC039F3009C3A8F /* SIXViewController.m in Sources */,
 				EA481C151DC8950B00412297 /* TestVC.m in Sources */,
 				EA9CAC611DC74545009DAB1A /* SpecialButton.m in Sources */,
 				EA41163C1DBF2D9B00B38183 /* StretchHeaderView.m in Sources */,
+				EA61B3F91DC9F7EE007DF9DD /* MoveableColor.m in Sources */,
+				EA5310BA1DC98318006EB9D2 /* PiecesImageLoop.m in Sources */,
 				EAD5DC371DC719B3001B1586 /* SnowyDay.m in Sources */,
 				EAD5DC3A1DC72180001B1586 /* WaterWave.m in Sources */,
 				EA4116431DBF46DA00B38183 /* GameMap.m in Sources */,
@@ -587,8 +627,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -632,8 +674,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";

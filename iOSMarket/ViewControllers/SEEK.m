@@ -43,12 +43,18 @@
     [self.view addSubview:view];
     
     UIBezierPath *textPath = [UIBezierPath pathForString:[self text] withFont:[UIFont fontWithName:@"HelveticaNeue-UltraLight" size:20.f]];
+//    UIBezierPath *textPath = [UIBezierPath pathForMultilineString:[self text] withFont:[UIFont systemFontOfSize:80.f] maxWidth:kScreenWidth textAlignment:NSTextAlignmentCenter];
     CAShapeLayer *shapeLayer = [CAShapeLayer layer];
     shapeLayer.bounds = CGPathGetBoundingBox(textPath.CGPath);
     shapeLayer.position = self.view.center;
     shapeLayer.strokeEnd = 0.f;
     shapeLayer.fillColor = [UIColor clearColor].CGColor;
     shapeLayer.strokeColor = [UIColor whiteColor].CGColor;
+//    shapeLayer.shadowOffset = CGSizeMake(5, 5);
+//    shapeLayer.shadowColor = [UIColor whiteColor].CGColor;
+//    shapeLayer.shadowRadius = 5;
+//    shapeLayer.shadowOpacity = 1;
+    
 //    shapeLayer.geometryFlipped = YES;
     shapeLayer.path = textPath.CGPath;
     self.shapeLayer = shapeLayer;
@@ -57,8 +63,8 @@
     gradientLayer.frame = self.view.bounds;
     gradientLayer.colors = self.colors;
     gradientLayer.mask = shapeLayer;
-    gradientLayer.startPoint = CGPointMake(0, 0.5);
-    gradientLayer.endPoint = CGPointMake(1, 0.5);
+    gradientLayer.startPoint = CGPointMake(0, 0);
+    gradientLayer.endPoint = CGPointMake(1, 0);
     [self.view.layer addSublayer:gradientLayer];
     self.gradientLayer = gradientLayer;
     [gradientLayer addAnimation:self.animation forKey:nil];
@@ -132,6 +138,49 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+#pragma mark - 第二种实现方式
+//- (void)viewDidLoad {
+//    [super viewDidLoad];
+//    
+//    UILabel *label = [[UILabel alloc] init];
+//    label.text = @"什么单位， 请问的";
+//    [label sizeToFit];
+//    label.center = self.view.center;
+//    [self.view addSubview:label];
+//    
+//    CAGradientLayer *gradientLayer = [CAGradientLayer layer];
+//    gradientLayer.frame = label.frame;
+//    gradientLayer.mask = label.layer;
+//    label.frame = gradientLayer.bounds;
+//    gradientLayer.startPoint = CGPointMake(0, 0);
+//    gradientLayer.endPoint = CGPointMake(1, 0);
+//    gradientLayer.colors = @[[self randomColor], [self randomColor], [self randomColor]];
+//    [self.view.layer addSublayer:gradientLayer];
+//    self.gradientLayer = gradientLayer;
+//    
+//    self.timer = [NSTimer scheduledTimerWithTimeInterval:0.3 repeats:YES block:^(NSTimer * _Nonnull timer) {
+//        [self textColorChange];
+//    }];
+//    NSLog(@"%ld", self.view.subviews.count);
+//}
+//
+//
+//-(id)randomColor{
+//    CGFloat r = arc4random_uniform(256) / 255.0;
+//    CGFloat g = arc4random_uniform(256) / 255.0;
+//    CGFloat b = arc4random_uniform(256) / 255.0;
+//    return (__bridge id)[UIColor colorWithRed:r green:g blue:b alpha:1].CGColor;
+//}
+//
+//-(void)textColorChange {
+//    _gradientLayer.colors = @[[self randomColor],
+//                              [self randomColor],
+//                              [self randomColor],
+//                              [self randomColor],
+//                              [self randomColor]];
+//}
 
 /*
 #pragma mark - Navigation

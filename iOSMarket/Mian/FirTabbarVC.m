@@ -19,6 +19,10 @@
 #import "SpecialButton.h"
 #import "DashLine.h"
 #import "LayerPauseresume.h"
+#import "PiecesImageLoop.h"
+#import "MoveableColor.h"
+#import "ProgressBar.h"
+#import "HeXinTuXing.h"
 
 @interface FirTabbarVC () <UITableViewDelegate, UITableViewDataSource>
 
@@ -42,36 +46,6 @@ static NSString * const OpenType = @"openType";
     [self setupViews];
 }
 
-- (void)viewWillLayoutSubviews {
-    [super viewWillLayoutSubviews];
-    NSLog(@"%s", __func__);
-}
-
-- (void)viewDidLayoutSubviews {
-    [super viewDidLayoutSubviews];
-    NSLog(@"%s", __func__);
-}
-
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-    NSLog(@"%s", __func__);
-}
-
-- (void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
-    NSLog(@"%s", __func__);
-}
-
-- (void)viewWillDisappear:(BOOL)animated {
-    [super viewWillDisappear:animated];
-    NSLog(@"%s", __func__);
-}
-
-- (void)viewDidDisappear:(BOOL)animated {
-    [super viewDidDisappear:animated];
-    NSLog(@"%s", __func__);
-}
-
 - (void)commonInit {
     self.datas = @[@{Title:@"开篇语",           VC:[SEEK class], OpenType:@0},
                    @{Title:@"测试专用",         VC:[TestVC class], OpenType:@0},
@@ -85,10 +59,10 @@ static NSString * const OpenType = @"openType";
                    @{Title:@"特色按钮",         VC:[SpecialButton class], OpenType:@0},
                    @{Title:@"虚线绘制",         VC:[DashLine class], OpenType:@0},
                    @{Title:@"图层动画的暂停回复",  VC:[LayerPauseresume class], OpenType:@0},
-                   @{Title:@"开篇语",          VC:[UIViewController class], OpenType:@0},
-                   @{Title:@"开篇语",          VC:[UIViewController class], OpenType:@0},
-                   @{Title:@"开篇语",          VC:[UIViewController class], OpenType:@0},
-                   @{Title:@"开篇语",          VC:[UIViewController class], OpenType:@0},
+                   @{Title:@"碎片效果的图片轮播",          VC:[PiecesImageLoop class], OpenType:@0},
+                   @{Title:@"颜色在字上跑",          VC:[MoveableColor class], OpenType:@0},
+                   @{Title:@"探访下Core Graphics",          VC:[HeXinTuXing class], OpenType:@0},
+                   @{Title:@"一个炫酷的进度条",          VC:[ProgressBar class], OpenType:@0},
                    @{Title:@"开篇语",          VC:[UIViewController class], OpenType:@0},
                    @{Title:@"开篇语",          VC:[UIViewController class], OpenType:@0},
                    @{Title:@"开篇语",          VC:[UIViewController class], OpenType:@0},
@@ -145,6 +119,36 @@ static NSString * const OpenType = @"openType";
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+//- (void)viewWillLayoutSubviews {
+//    [super viewWillLayoutSubviews];
+//    NSLog(@"%s", __func__);
+//}
+//
+//- (void)viewDidLayoutSubviews {
+//    [super viewDidLayoutSubviews];
+//    NSLog(@"%s", __func__);
+//}
+//
+//- (void)viewWillAppear:(BOOL)animated {
+//    [super viewWillAppear:animated];
+//    NSLog(@"%s", __func__);
+//}
+//
+//- (void)viewDidAppear:(BOOL)animated {
+//    [super viewDidAppear:animated];
+//    NSLog(@"%s", __func__);
+//}
+//
+//- (void)viewWillDisappear:(BOOL)animated {
+//    [super viewWillDisappear:animated];
+//    NSLog(@"%s", __func__);
+//}
+//
+//- (void)viewDidDisappear:(BOOL)animated {
+//    [super viewDidDisappear:animated];
+//    NSLog(@"%s", __func__);
+//}
 
 /*
 #pragma mark - Navigation

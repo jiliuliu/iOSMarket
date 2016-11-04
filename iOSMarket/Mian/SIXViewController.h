@@ -10,4 +10,6 @@
 
 @interface SIXViewController : UIViewController
 
+@property (nonatomic, weak) NSTimer *timer;
+
 @end
