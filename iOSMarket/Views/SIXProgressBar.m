@@ -139,7 +139,7 @@
     _whiteCircleLayer.frame = CGRectMake(_progressBarHeight*0.5, trackY, _progressBarHeight, _progressBarHeight);
 }
 
-static NSString * const kPregressBarAnimationKey = @"kPregressBarAnimationKey";
+
 - (void)setProgress:(CGFloat)progress {
     _progress = progress;
     if (progress >=1) {
@@ -165,17 +165,5 @@ static NSString * const kPregressBarAnimationKey = @"kPregressBarAnimationKey";
     _progressLabel.text = [NSString stringWithFormat:@"进度：%d%%", (int)roundf(progress*100.0)];
 }
 
-- (UIBezierPath *)createBezierPath {
-    UIBezierPath *path = [UIBezierPath bezierPath];
-//    [path moveToPoint:CGPointMake(_progressBarHeight*0.5, (CGRectGetHeight(frame) - _progressBarHeight)*0.5)];
-    return path;
-}
-
-
-
-- (void)setFrame:(CGRect)frame {
-    NSLog(@"%@", NSStringFromCGRect(frame));
-    [super setFrame:frame];
-}
 
 @end
