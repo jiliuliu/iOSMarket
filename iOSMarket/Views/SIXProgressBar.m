@@ -13,16 +13,13 @@
 /**  底部轨道颜色  */
 @property (nonatomic, strong) UIColor *trackColor;
 
-/**  进度条颜色 */
-@property (nonatomic, strong) NSArray *progressBarColors;
-
 /**  文字颜色  */
 @property (nonatomic, strong) UIColor *textColor;
 
 /**  进度条的高  */
 @property (nonatomic, assign) CGFloat progressBarHeight;
 
-/**  label的宽  */
+/**  进度条最大的宽  */
 @property (nonatomic, assign) CGFloat progressBarWidth;
 
 /**  轨道图层  */
@@ -36,7 +33,7 @@
 
 @property (nonatomic, weak) CALayer *maskLayer;
 
-@property (nonatomic, weak) CALayer *circleLayer;
+@property (nonatomic, weak) CAShapeLayer *circleLayer;
 
 @property (nonatomic, weak) CALayer *whiteCircleLayer;
 
@@ -61,7 +58,7 @@
 - (void)commonInit {
     _trackColor = [UIColor colorWithWhite:0.9 alpha:1.0];
     _textColor = [UIColor colorWithWhite:0.5 alpha:1.0];
-    _progressBarHeight = 8.f;
+    _progressBarHeight = 7.f;
     _progress = 0.f;
     _progressBarColors = @[(__bridge id)[UIColor colorWithRed:1.0 green:165/255.0 blue:71/255.0 alpha:1].CGColor,
                            (__bridge id)[UIColor colorWithRed:1.0 green:69/255.0 blue:0 alpha:1].CGColor,
@@ -83,11 +80,14 @@
     progressLayer.masksToBounds = YES;
     [maskLayer addSublayer:progressLayer];
     
-    CALayer *circleLayer = [CALayer layer];
-    circleLayer.backgroundColor = [UIColor blackColor].CGColor;
-    circleLayer.cornerRadius = _progressBarHeight;
+    CAShapeLayer *circleLayer = [CAShapeLayer layer];
+    circleLayer.fillColor = [UIColor blackColor].CGColor;
+//    circleLayer.cornerRadius = _progressBarHeight;
     circleLayer.masksToBounds = YES;
     [maskLayer addSublayer:circleLayer];
+    
+    UIBezierPath *path = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(0, 0, _progressBarHeight*3, _progressBarHeight*2)];
+    circleLayer.path = path.CGPath;
     
     CAGradientLayer *gradientLayer = [CAGradientLayer layer];
     gradientLayer.colors = self.progressBarColors;
@@ -135,7 +135,7 @@
 //    _progressLayer.frame = CGRectMake(-_progressBarWidth, trackY, _progressBarWidth, _progressBarHeight);
     _progressLayer.frame = CGRectMake(0, (CGRectGetHeight(frame) - _progressBarHeight)*0.5, _progressBarHeight*0.5, _progressBarHeight);
     _progressLayer.anchorPoint = CGPointMake(0, 0.5);
-    _circleLayer.frame = CGRectMake(0, (CGRectGetHeight(frame)-_progressBarHeight*2)*0.5, _progressBarHeight*2, _progressBarHeight*2);
+    _circleLayer.frame = CGRectMake(0, (CGRectGetHeight(frame)-_progressBarHeight*2)*0.5, _progressBarHeight*3, _progressBarHeight*2);
     _whiteCircleLayer.frame = CGRectMake(_progressBarHeight*0.5, trackY, _progressBarHeight, _progressBarHeight);
 }
 
@@ -152,7 +152,7 @@
     CGRect bounds = _progressLayer.bounds;
     bounds.size.width = (_progressBarWidth-_progressBarHeight)*progress + 0.5*_progressBarHeight;
     CGPoint point = _circleLayer.position;
-    point.x = (_progressBarWidth-_progressBarHeight*2)*progress + _progressBarHeight;
+    point.x = (_progressBarWidth-_progressBarHeight*3)*progress + _progressBarHeight*1.5;
     
     [CATransaction begin];
     [CATransaction setValue:(id)kCFBooleanFalse forKey:kCATransactionDisableActions];
@@ -165,5 +165,10 @@
     _progressLabel.text = [NSString stringWithFormat:@"进度：%d%%", (int)roundf(progress*100.0)];
 }
 
+
+- (void)setProgressBarColors:(NSArray *)progressBarColors {
+    _progressBarColors = progressBarColors;
+    self.gradientLayer.colors = progressBarColors;
+}
 
 @end

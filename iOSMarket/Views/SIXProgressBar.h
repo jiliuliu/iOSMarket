@@ -15,4 +15,7 @@
  */
 @property (nonatomic, assign) CGFloat progress;
 
+/**  进度条颜色 */
+@property (nonatomic, strong) NSArray *progressBarColors;
+
 @end

@@ -13,7 +13,7 @@
 #import <Masonry.h>
 
 #define RGB_COLOR(R, G, B, A) [UIColor colorWithRed:(R) green:(G) blue:(B) alpha:(A)]
-
+#define kColorFromHex(s) [UIColor colorWithRed:(((s & 0xFF0000) >> 16))/255.0 green:(((s &0xFF00) >>8))/255.0 blue:((s &0xFF))/255.0 alpha:1.0]
 
 #define kScreenWidth        [UIScreen mainScreen].bounds.size.width
 #define kScreenHeight       [UIScreen mainScreen].bounds.size.height
