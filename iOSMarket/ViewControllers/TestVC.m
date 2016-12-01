@@ -11,16 +11,43 @@
 
 @interface TestVC ()
 @property (nonatomic, strong) UIImageView *layerView1;
+@property (nonatomic, weak) UITextView *textView;
 
 @end
 
 @implementation TestVC
 
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+   self.navigationController.navigationBar.translucent = NO;
+    
+    UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:self.view.bounds];
+    
+    UITextView *text = [[UITextView alloc] initWithFrame:CGRectMake(0, 20, kScreenWidth, kScreenHeight-kNavigationBarMaxY-40)];
+    text.backgroundColor = [UIColor cyanColor];
+    text.contentInset = UIEdgeInsetsMake(1, 0, 1, 0);
+    text.scrollEnabled = NO;
+    text.contentSize = CGSizeMake(0, kScreenHeight-kNavigationBarMaxY-39.5);
+    [self.view addSubview:text];
+    _textView = text;
+    
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 70, 70)];
+    view.backgroundColor = [UIColor redColor];
+    [text addSubview:view];
+}
 
+- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate {
+    if ([scrollView isFirstResponder]) {
+        [scrollView resignFirstResponder];
+    }
+}
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
 }
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

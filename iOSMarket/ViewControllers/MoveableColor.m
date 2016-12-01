@@ -59,9 +59,9 @@
     
     maskLabel.maskView = maskView;
     
-    self.timer = [NSTimer scheduledTimerWithTimeInterval:6 repeats:YES block:^(NSTimer * _Nonnull timer) {
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:3 repeats:YES block:^(NSTimer * _Nonnull timer) {
         
-        [UIView animateWithDuration:5 animations:^{
+        [UIView animateWithDuration:2.5 animations:^{
             maskView.frame    = CGRectMake(1.5*maskLabel.w, 0, maskLabel.w, maskLabel.h);
         } completion:^(BOOL finished) {
             maskView.frame    = CGRectMake(-0.5*maskLabel.w, 0, maskLabel.w, maskLabel.h);

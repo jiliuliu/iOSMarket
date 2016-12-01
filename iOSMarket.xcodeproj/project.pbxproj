@@ -31,6 +31,7 @@
 		EA61B3F91DC9F7EE007DF9DD /* MoveableColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EA61B3F81DC9F7EE007DF9DD /* MoveableColor.m */; };
 		EA688BD11DC8279E007DEE63 /* DashLine.m in Sources */ = {isa = PBXBuildFile; fileRef = EA688BD01DC8279E007DEE63 /* DashLine.m */; };
 		EA688BD41DC839AA007DEE63 /* ZoomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EA688BD31DC839AA007DEE63 /* ZoomButton.m */; };
+		EA7009F41DD19897008D33AF /* TransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7009F31DD19897008D33AF /* TransitionAnimation.m */; };
 		EA715C141DCC178000E67521 /* SIXProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EA715C131DCC178000E67521 /* SIXProgressBar.m */; };
 		EA715C1A1DCC20A100E67521 /* ProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EA715C191DCC20A100E67521 /* ProgressBar.m */; };
 		EA715C1C1DCC237A00E67521 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA715C1B1DCC237A00E67521 /* CoreGraphics.framework */; };
@@ -39,7 +40,11 @@
 		EA73A63F1DC6E1BF00003D19 /* UIColor+ImageGetColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EA73A63E1DC6E1BF00003D19 /* UIColor+ImageGetColor.m */; };
 		EA73A6421DC6E28400003D19 /* HuiGuangWenZi.m in Sources */ = {isa = PBXBuildFile; fileRef = EA73A6411DC6E28400003D19 /* HuiGuangWenZi.m */; };
 		EA73A6451DC6E2E100003D19 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EA73A6441DC6E2E100003D19 /* UIImage+Extension.m */; };
+		EA8594E41DEFB6A700EAF4E3 /* YGKeykoardHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8594E31DEFB6A700EAF4E3 /* YGKeykoardHandler.m */; };
+		EA8594E71DEFBAE400EAF4E3 /* YGKeykoardHandlerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8594E61DEFBAE400EAF4E3 /* YGKeykoardHandlerVC.m */; };
 		EA9CAC611DC74545009DAB1A /* SpecialButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9CAC601DC74545009DAB1A /* SpecialButton.m */; };
+		EAA74D701DD2F85800146475 /* TextViewKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA74D6F1DD2F85800146475 /* TextViewKeyboard.m */; };
+		EAC2DF761DD2FE85008DE57B /* YGProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC2DF751DD2FE85008DE57B /* YGProgressHUD.m */; };
 		EAC6C6931DCB3D0600457EBA /* HYGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC6C6921DCB3D0600457EBA /* HYGradientLayer.m */; };
 		EAD5DC371DC719B3001B1586 /* SnowyDay.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD5DC361DC719B3001B1586 /* SnowyDay.m */; };
 		EAD5DC3A1DC72180001B1586 /* WaterWave.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD5DC391DC72180001B1586 /* WaterWave.m */; };
@@ -115,6 +120,8 @@
 		EA688BD01DC8279E007DEE63 /* DashLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashLine.m; sourceTree = "<group>"; };
 		EA688BD21DC839AA007DEE63 /* ZoomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomButton.h; sourceTree = "<group>"; };
 		EA688BD31DC839AA007DEE63 /* ZoomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomButton.m; sourceTree = "<group>"; };
+		EA7009F21DD19897008D33AF /* TransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionAnimation.h; sourceTree = "<group>"; };
+		EA7009F31DD19897008D33AF /* TransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionAnimation.m; sourceTree = "<group>"; };
 		EA715C121DCC178000E67521 /* SIXProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIXProgressBar.h; sourceTree = "<group>"; };
 		EA715C131DCC178000E67521 /* SIXProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIXProgressBar.m; sourceTree = "<group>"; };
 		EA715C181DCC20A100E67521 /* ProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressBar.h; sourceTree = "<group>"; };
@@ -130,8 +137,16 @@
 		EA73A6411DC6E28400003D19 /* HuiGuangWenZi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuiGuangWenZi.m; sourceTree = "<group>"; };
 		EA73A6431DC6E2E100003D19 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
 		EA73A6441DC6E2E100003D19 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		EA8594E21DEFB6A700EAF4E3 /* YGKeykoardHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGKeykoardHandler.h; sourceTree = "<group>"; };
+		EA8594E31DEFB6A700EAF4E3 /* YGKeykoardHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGKeykoardHandler.m; sourceTree = "<group>"; };
+		EA8594E51DEFBAE400EAF4E3 /* YGKeykoardHandlerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGKeykoardHandlerVC.h; sourceTree = "<group>"; };
+		EA8594E61DEFBAE400EAF4E3 /* YGKeykoardHandlerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGKeykoardHandlerVC.m; sourceTree = "<group>"; };
 		EA9CAC5F1DC74545009DAB1A /* SpecialButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialButton.h; sourceTree = "<group>"; };
 		EA9CAC601DC74545009DAB1A /* SpecialButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialButton.m; sourceTree = "<group>"; };
+		EAA74D6E1DD2F85800146475 /* TextViewKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewKeyboard.h; sourceTree = "<group>"; };
+		EAA74D6F1DD2F85800146475 /* TextViewKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewKeyboard.m; sourceTree = "<group>"; };
+		EAC2DF741DD2FE85008DE57B /* YGProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGProgressHUD.h; sourceTree = "<group>"; };
+		EAC2DF751DD2FE85008DE57B /* YGProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGProgressHUD.m; sourceTree = "<group>"; };
 		EAC6C6911DCB3D0600457EBA /* HYGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGradientLayer.h; sourceTree = "<group>"; };
 		EAC6C6921DCB3D0600457EBA /* HYGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGradientLayer.m; sourceTree = "<group>"; };
 		EAD5DC351DC719B3001B1586 /* SnowyDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowyDay.h; sourceTree = "<group>"; };
@@ -212,6 +227,7 @@
 		EA4115EA1DBEEBC800B38183 /* iOSMarket */ = {
 			isa = PBXGroup;
 			children = (
+				EA8594E11DEFB69100EAF4E3 /* Tools */,
 				EA4116321DBF0C1A00B38183 /* Libs */,
 				EA4116221DBEEDD200B38183 /* Mian */,
 				EA4116201DBEECCA00B38183 /* Views */,
@@ -289,6 +305,12 @@
 				EA715C191DCC20A100E67521 /* ProgressBar.m */,
 				EA715C1D1DCC24CC00E67521 /* HeXinTuXing.h */,
 				EA715C1E1DCC24CC00E67521 /* HeXinTuXing.m */,
+				EA7009F21DD19897008D33AF /* TransitionAnimation.h */,
+				EA7009F31DD19897008D33AF /* TransitionAnimation.m */,
+				EAA74D6E1DD2F85800146475 /* TextViewKeyboard.h */,
+				EAA74D6F1DD2F85800146475 /* TextViewKeyboard.m */,
+				EA8594E51DEFBAE400EAF4E3 /* YGKeykoardHandlerVC.h */,
+				EA8594E61DEFBAE400EAF4E3 /* YGKeykoardHandlerVC.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -339,6 +361,7 @@
 		EA4116321DBF0C1A00B38183 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				EAC2DF731DD2FE85008DE57B /* YGProgressHUD */,
 				EA4116331DBF0C6600B38183 /* TextPath */,
 			);
 			path = Libs;
@@ -353,6 +376,25 @@
 				EA4116371DBF0C6600B38183 /* UIBezierPath+TextPaths.m */,
 			);
 			path = TextPath;
+			sourceTree = "<group>";
+		};
+		EA8594E11DEFB69100EAF4E3 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				EA8594E21DEFB6A700EAF4E3 /* YGKeykoardHandler.h */,
+				EA8594E31DEFB6A700EAF4E3 /* YGKeykoardHandler.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		EAC2DF731DD2FE85008DE57B /* YGProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				EAC2DF741DD2FE85008DE57B /* YGProgressHUD.h */,
+				EAC2DF751DD2FE85008DE57B /* YGProgressHUD.m */,
+			);
+			name = YGProgressHUD;
+			path = "../../../../Desktop/六/源/SIX_UI/SIXProgressHUD/SIXProgressHUD/YGProgressHUD";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -557,13 +599,18 @@
 				EA9CAC611DC74545009DAB1A /* SpecialButton.m in Sources */,
 				EA41163C1DBF2D9B00B38183 /* StretchHeaderView.m in Sources */,
 				EA61B3F91DC9F7EE007DF9DD /* MoveableColor.m in Sources */,
+				EA8594E71DEFBAE400EAF4E3 /* YGKeykoardHandlerVC.m in Sources */,
 				EA5310BA1DC98318006EB9D2 /* PiecesImageLoop.m in Sources */,
 				EAD5DC371DC719B3001B1586 /* SnowyDay.m in Sources */,
+				EA8594E41DEFB6A700EAF4E3 /* YGKeykoardHandler.m in Sources */,
 				EAD5DC3A1DC72180001B1586 /* WaterWave.m in Sources */,
 				EA4116431DBF46DA00B38183 /* GameMap.m in Sources */,
 				EA7181DF1DC3024700189B5C /* ThreeD.m in Sources */,
 				EA73A63F1DC6E1BF00003D19 /* UIColor+ImageGetColor.m in Sources */,
+				EA7009F41DD19897008D33AF /* TransitionAnimation.m in Sources */,
+				EAA74D701DD2F85800146475 /* TextViewKeyboard.m in Sources */,
 				EA4116461DBF514400B38183 /* GameMap2.m in Sources */,
+				EAC2DF761DD2FE85008DE57B /* YGProgressHUD.m in Sources */,
 				EA73A6451DC6E2E100003D19 /* UIImage+Extension.m in Sources */,
 				EA4116391DBF0C6600B38183 /* UIBezierPath+TextPaths.m in Sources */,
 				EA4116251DBEEDFC00B38183 /* SIXNavigationController.m in Sources */,

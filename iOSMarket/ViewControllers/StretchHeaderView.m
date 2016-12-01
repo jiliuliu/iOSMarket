@@ -90,7 +90,7 @@ static CGFloat const HeaderHeight = 200;
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
-//    NSLog(@"%lf, %lf, %lf", scrollView.contentOffset.x, scrollView.contentOffset.y, scrollView.contentInset.top);
+    NSLog(@"%lf, %lf, %lf", scrollView.contentOffset.x, scrollView.contentOffset.y, scrollView.contentInset.top);
     CGFloat contentOffY = scrollView.contentOffset.y;
     CGRect rect = self.imageView.frame;
     if (contentOffY*(-1) >= scrollView.contentInset.top) {

@@ -23,6 +23,9 @@
 #import "MoveableColor.h"
 #import "ProgressBar.h"
 #import "HeXinTuXing.h"
+#import "TransitionAnimation.h"
+#import "TextViewKeyboard.h"
+#import "YGKeykoardHandlerVC.h"
 
 @interface FirTabbarVC () <UITableViewDelegate, UITableViewDataSource>
 
@@ -40,7 +43,7 @@ static NSString * const OpenType = @"openType";
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
+
     self.title = @"这个取什么名字呢？";
     [self commonInit];
     [self setupViews];
@@ -63,9 +66,9 @@ static NSString * const OpenType = @"openType";
                    @{Title:@"颜色在字上跑",          VC:[MoveableColor class], OpenType:@0},
                    @{Title:@"探访下Core Graphics",          VC:[HeXinTuXing class], OpenType:@0},
                    @{Title:@"一个炫酷的进度条",          VC:[ProgressBar class], OpenType:@0},
-                   @{Title:@"开篇语",          VC:[UIViewController class], OpenType:@0},
-                   @{Title:@"开篇语",          VC:[UIViewController class], OpenType:@0},
-                   @{Title:@"开篇语",          VC:[UIViewController class], OpenType:@0},
+                   @{Title:@"一点转场动画",          VC:[TransitionAnimation class], OpenType:@0},
+                   @{Title:@"UITextView的键盘操作",          VC:[TextViewKeyboard class], OpenType:@0},
+                   @{Title:@"测试一个处理键盘的工具",          VC:[YGKeykoardHandlerVC class], OpenType:@0},
                    @{Title:@"开篇语",          VC:[UIViewController class], OpenType:@0},
                    @{Title:@"开篇语",          VC:[UIViewController class], OpenType:@0},
                    @{Title:@"开篇语",          VC:[UIViewController class], OpenType:@0},

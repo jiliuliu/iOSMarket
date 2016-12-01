@@ -51,6 +51,11 @@
 }
 
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [super touchesBegan:touches withEvent:event];
+    [self.view endEditing:YES];
+}
+
 - (void)buttonAction {
     self.progressBar.progress = [self.field.text floatValue];
     self.gradientLayer.percent = [self.field.text floatValue];
