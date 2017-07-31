@@ -20,10 +20,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-   self.navigationController.navigationBar.translucent = NO;
-    
-    UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:self.view.bounds];
-    
     UITextView *text = [[UITextView alloc] initWithFrame:CGRectMake(0, 20, kScreenWidth, kScreenHeight-kNavigationBarMaxY-40)];
     text.backgroundColor = [UIColor cyanColor];
     text.contentInset = UIEdgeInsetsMake(1, 0, 1, 0);

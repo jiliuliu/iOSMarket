@@ -36,10 +36,11 @@
     
     if (!self.navigationController) {
         UIButton *backBtn = [UIButton buttonWithType:UIButtonTypeSystem];
-        backBtn.frame = CGRectMake(kScreenWidth-50, 0, 50, 50);
+        backBtn.frame = CGRectMake(20, 20, 50, 50);
         [backBtn setTitle:@"done" forState:UIControlStateNormal];
         [backBtn addTarget:self action:@selector(backAction:) forControlEvents:UIControlEventTouchUpInside];
-        [[UIApplication sharedApplication].keyWindow addSubview:backBtn];
+        backBtn.titleLabel.font = [UIFont boldSystemFontOfSize:25];
+        [self.view addSubview:backBtn];
         [UIApplication sharedApplication].statusBarHidden = YES;
     }
 }

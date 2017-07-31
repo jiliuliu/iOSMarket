@@ -44,7 +44,6 @@
 		EA8594E71DEFBAE400EAF4E3 /* YGKeykoardHandlerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8594E61DEFBAE400EAF4E3 /* YGKeykoardHandlerVC.m */; };
 		EA9CAC611DC74545009DAB1A /* SpecialButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9CAC601DC74545009DAB1A /* SpecialButton.m */; };
 		EAA74D701DD2F85800146475 /* TextViewKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA74D6F1DD2F85800146475 /* TextViewKeyboard.m */; };
-		EAC2DF761DD2FE85008DE57B /* YGProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC2DF751DD2FE85008DE57B /* YGProgressHUD.m */; };
 		EAC6C6931DCB3D0600457EBA /* HYGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC6C6921DCB3D0600457EBA /* HYGradientLayer.m */; };
 		EAD5DC371DC719B3001B1586 /* SnowyDay.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD5DC361DC719B3001B1586 /* SnowyDay.m */; };
 		EAD5DC3A1DC72180001B1586 /* WaterWave.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD5DC391DC72180001B1586 /* WaterWave.m */; };
@@ -145,8 +144,6 @@
 		EA9CAC601DC74545009DAB1A /* SpecialButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialButton.m; sourceTree = "<group>"; };
 		EAA74D6E1DD2F85800146475 /* TextViewKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewKeyboard.h; sourceTree = "<group>"; };
 		EAA74D6F1DD2F85800146475 /* TextViewKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewKeyboard.m; sourceTree = "<group>"; };
-		EAC2DF741DD2FE85008DE57B /* YGProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGProgressHUD.h; sourceTree = "<group>"; };
-		EAC2DF751DD2FE85008DE57B /* YGProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGProgressHUD.m; sourceTree = "<group>"; };
 		EAC6C6911DCB3D0600457EBA /* HYGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGradientLayer.h; sourceTree = "<group>"; };
 		EAC6C6921DCB3D0600457EBA /* HYGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGradientLayer.m; sourceTree = "<group>"; };
 		EAD5DC351DC719B3001B1586 /* SnowyDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowyDay.h; sourceTree = "<group>"; };
@@ -361,7 +358,6 @@
 		EA4116321DBF0C1A00B38183 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
-				EAC2DF731DD2FE85008DE57B /* YGProgressHUD */,
 				EA4116331DBF0C6600B38183 /* TextPath */,
 			);
 			path = Libs;
@@ -385,16 +381,6 @@
 				EA8594E31DEFB6A700EAF4E3 /* YGKeykoardHandler.m */,
 			);
 			path = Tools;
-			sourceTree = "<group>";
-		};
-		EAC2DF731DD2FE85008DE57B /* YGProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				EAC2DF741DD2FE85008DE57B /* YGProgressHUD.h */,
-				EAC2DF751DD2FE85008DE57B /* YGProgressHUD.m */,
-			);
-			name = YGProgressHUD;
-			path = "../../../../Desktop/六/源/SIX_UI/SIXProgressHUD/SIXProgressHUD/YGProgressHUD";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -610,7 +596,6 @@
 				EA7009F41DD19897008D33AF /* TransitionAnimation.m in Sources */,
 				EAA74D701DD2F85800146475 /* TextViewKeyboard.m in Sources */,
 				EA4116461DBF514400B38183 /* GameMap2.m in Sources */,
-				EAC2DF761DD2FE85008DE57B /* YGProgressHUD.m in Sources */,
 				EA73A6451DC6E2E100003D19 /* UIImage+Extension.m in Sources */,
 				EA4116391DBF0C6600B38183 /* UIBezierPath+TextPaths.m in Sources */,
 				EA4116251DBEEDFC00B38183 /* SIXNavigationController.m in Sources */,
@@ -754,7 +739,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E82T5RLF74;
-				GCC_PREFIX_HEADER = /Users/liujiliu/GitHub/iOSMarket/iOSMarket/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSMarket/PrefixHeader.pch";
 				INFOPLIST_FILE = iOSMarket/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = six.com.iOSMarket;
@@ -768,7 +753,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E82T5RLF74;
-				GCC_PREFIX_HEADER = /Users/liujiliu/GitHub/iOSMarket/iOSMarket/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSMarket/PrefixHeader.pch";
 				INFOPLIST_FILE = iOSMarket/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = six.com.iOSMarket;

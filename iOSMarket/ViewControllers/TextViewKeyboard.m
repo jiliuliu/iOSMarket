@@ -7,7 +7,6 @@
 //
 
 #import "TextViewKeyboard.h"
-#import "YGProgressHUD.h"
 
 @interface TextViewKeyboard () <UITextViewDelegate>
 
@@ -89,7 +88,6 @@
 }
 
 - (void)postRecords {
-    [YGProgressHUD showStatus:@"提交成功"];
     [self.textView resignFirstResponder];
     if ([self.delegate respondsToSelector:@selector(getBackRecords:)]) {
         [self.delegate getBackRecords:self.textView.text];
