@@ -20,5 +20,5 @@
 
 <p>
 <h4>图片特效</h4>
-<img src='./images/图片特效.png'></img>
+<img src='./images/图片特效.png' width = 200></img>
 </p>
