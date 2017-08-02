@@ -5,7 +5,7 @@
 
 <p>
 <h4>开篇语</h4>
-<img src=''></img>
+<img src='./images/开篇语.gif'></img>
 </p>
 
 <p>
