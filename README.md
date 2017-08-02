@@ -10,15 +10,15 @@
 
 <p>
 <h4>3d效果</h4>
-<img src='3d效果.gif'></img>
+<img src='./images/3d效果.gif'></img>
 </p>
 
 <p>
 <h4>碎片轮播效果</h4>
-<img src='碎片轮播效果.gif'></img>
+<img src='./images/碎片轮播效果.gif'></img>
 </p>
 
 <p>
 <h4>图片特效</h4>
-<img src='图片特效.png'></img>
+<img src='./images/图片特效.png'></img>
 </p>
